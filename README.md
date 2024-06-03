@@ -1,6 +1,7 @@
 How to use (hopefully this is enough of an explanation sorryy)
 ```lua
     --Example using texture files from avatar
+function events.entity_init()
     BaseTexture = textures:getTextures()[2]
     BaseTextureEmissive = textures:getTextures()[6]
     MaskTexture = textures:getTextures()[7]
@@ -15,6 +16,7 @@ How to use (hopefully this is enough of an explanation sorryy)
     action_wheel:newPage("Actions")
 
     AutoCreateActionWheel("Actions")
+end
  ```
 Generated Page:
 

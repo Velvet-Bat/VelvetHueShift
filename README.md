@@ -1,7 +1,7 @@
 How to use (hopefully this is enough of an explanation sorryy)
 ```lua
-    --Example using texture files from avatar
 function events.entity_init()
+    --Example using texture files from avatar
     BaseTexture = textures:getTextures()[2]
     BaseTextureEmissive = textures:getTextures()[6]
     MaskTexture = textures:getTextures()[7]

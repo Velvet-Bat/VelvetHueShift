@@ -17,6 +17,7 @@
  ```
 Generated Page:
 ![javaw_1DfZqkHlWo](https://github.com/Velvet-Bat/VelvetHueShift/assets/112919990/a34bb114-68ca-48b3-9f8d-674f30acddc5)
+
 Page Contents: **You must click 'Close & Save' to sync with the server** 
 ![image](https://github.com/Velvet-Bat/VelvetHueShift/assets/112919990/4b13028c-f83f-4b91-877d-553af6a6d373)
 

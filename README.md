@@ -1,3 +1,4 @@
+How to use (hopefully this is enough of an explanation sorryy)
 ```lua
     --Example using texture files from avatar
     BaseTexture = textures:getTextures()[2]
@@ -16,8 +17,18 @@
     AutoCreateActionWheel("Actions")
  ```
 Generated Page:
-![javaw_1DfZqkHlWo](https://github.com/Velvet-Bat/VelvetHueShift/assets/112919990/a34bb114-68ca-48b3-9f8d-674f30acddc5)
 
-Page Contents: **You must click 'Close & Save' to sync with the server** 
-![image](https://github.com/Velvet-Bat/VelvetHueShift/assets/112919990/4b13028c-f83f-4b91-877d-553af6a6d373)
+<img src="https://github.com/Velvet-Bat/VelvetHueShift/assets/112919990/a34bb114-68ca-48b3-9f8d-674f30acddc5" width="200" height="200">
 
+Page Contents: Scroll to set values
+
+**You must click 'Close & Save' (the barrier icon) to sync with other players** 
+
+<img src="https://github.com/Velvet-Bat/VelvetHueShift/assets/112919990/4b13028c-f83f-4b91-877d-553af6a6d373" width="200" height="200">
+
+Additionally if you ever want to rename or change the item on the generated you can edit the ActionWheel array, note that lua arrays start at 1!
+Something like this should be fine. You do need to include the ending ': 0', otherwise some weird text issues, I'm not that dedicated to fix them.
+```lua
+    ActionWheel[1]:title("Edited Name: 0")
+    ActionWheel[1]:item("egg")
+```
